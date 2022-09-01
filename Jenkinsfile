@@ -4,7 +4,7 @@ pipeline {
      stages {
         stage('Build') {
             steps {
-                sh 'npm install'
+                echo 'npm install'
             }
         }
         stage('Run collection') { 
